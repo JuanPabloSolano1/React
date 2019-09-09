@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class TonightsPlan extends React.Component {
+ scream(){
+   alert("Hellooooo")
+ }
+  render(){
+  return <button onClick={this.scream}>Click Me!</button>
+ }
+}
+ReactDOM.render(<TonightsPlan /> ,document.getElementById("root"))
